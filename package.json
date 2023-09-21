@@ -1,0 +1,20 @@
+{
+  "name": "gestoracademico",
+  "version": "1.0.0",
+  "description": "Sistema que permite o professor fazer as chamadas (registrar as presenças dos alunos) e também controlar quantas aulas foram pagas, usada e restantes pelo aluno.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2",
+    "nodemon": "^3.0.1"
+  }
+}
